@@ -22,6 +22,7 @@
 		C6B0E705199703AC0052719D /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6B0E704199703AC0052719D /* People.plist */; };
 		C6B0E708199706470052719D /* MVTBloodTypeSectionElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0E707199706470052719D /* MVTBloodTypeSectionElement.m */; };
 		C6B0E70B199714510052719D /* MVTLoremPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0E70A199714510052719D /* MVTLoremPageRenderer.m */; };
+		C6C40DFD199821BA00013959 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C40DFF199821BA00013959 /* Main_iPhone.storyboard */; };
 		C6FC8E8B1997C045005BD7E0 /* MVTLoermIpsumSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC8E8A1997C045005BD7E0 /* MVTLoermIpsumSection.m */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		C6B0E707199706470052719D /* MVTBloodTypeSectionElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTBloodTypeSectionElement.m; sourceTree = "<group>"; };
 		C6B0E709199714510052719D /* MVTLoremPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTLoremPageRenderer.h; sourceTree = "<group>"; };
 		C6B0E70A199714510052719D /* MVTLoremPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTLoremPageRenderer.m; sourceTree = "<group>"; };
+		C6C40DFE199821BA00013959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		C6FC8E891997C045005BD7E0 /* MVTLoermIpsumSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTLoermIpsumSection.h; sourceTree = "<group>"; };
 		C6FC8E8A1997C045005BD7E0 /* MVTLoermIpsumSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTLoermIpsumSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C66CF07E199673D100E444A5 /* Main_iPad.storyboard */,
+				C6C40DFF199821BA00013959 /* Main_iPhone.storyboard */,
 				C66CF06A1996733400E444A5 /* MVTAppDelegate.h */,
 				C66CF06B1996733400E444A5 /* MVTAppDelegate.m */,
 				C6A659C71996F203005A1660 /* MVTSampleListViewController.h */,
@@ -195,6 +198,7 @@
 			files = (
 				C66CF0781996733400E444A5 /* Images.xcassets in Resources */,
 				C6A659CC1996F540005A1660 /* Localizable.strings in Resources */,
+				C6C40DFD199821BA00013959 /* Main_iPhone.storyboard in Resources */,
 				C66CF07C199673D100E444A5 /* Main_iPad.storyboard in Resources */,
 				C6B0E705199703AC0052719D /* People.plist in Resources */,
 			);
@@ -235,6 +239,14 @@
 				C6A659CD1996F540005A1660 /* Base */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C6C40DFF199821BA00013959 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C40DFE199821BA00013959 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

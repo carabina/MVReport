@@ -98,9 +98,15 @@
         weakViewController.completionHandler = nil;
     };
     
-    self.sharingPopoverController = [[UIPopoverController alloc] initWithContentViewController:activityViewController];
-    [self.sharingPopoverController presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
-
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+    {
+        self.sharingPopoverController = [[UIPopoverController alloc] initWithContentViewController:activityViewController];
+        [self.sharingPopoverController presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+    }
+    else
+    {
+        [self.navigationController presentViewController:activityViewController animated:YES completion:nil];
+    }
 }
 
 @end
