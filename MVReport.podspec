@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
 # Source Info
   s.platform     =  :ios, '7.0'
   s.ios.deployment_target = '7.0'
-  s.source       =  { :git => 'https://github.com/Moroverse/MVReport.git', :tag => "0.1.0" }
-  s.public_header_files = 'MVReport/*.h'
-  s.source_files = 'MVReport/MVReport-iOS.h'
+  s.source       =  { :git => 'https://github.com/Moroverse/MVReport.git', :tag => s.version.to_s }
+  s.private_header_files = "MVReport/*{+Private}.h"
+  s.source_files = 'MVReport/*.{h,m}'
   s.frameworks    =  'CoreGraphics', 'UIKit', 'CoreText'
 
   s.requires_arc = true
