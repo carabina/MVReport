@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>firstName</key>
+		<string>Brittany</string>
+		<key>lastName</key>
+		<string>Campbell</string>
+		<key>email</key>
+		<string>HowardSRoss@armyspy.com</string>
+		<key>bloodType</key>
+		<string>A+</string>
+	</dict>
+	<dict>
+		<key>firstName</key>
+		<string>Alfred</string>
+		<key>lastName</key>
+		<string>Rowe</string>
+		<key>email</key>
+		<string>AlfredPRowe@teleworm.us</string>
+		<key>bloodType</key>
+		<string>AB+</string>
+	</dict>
+	<dict>
+		<key>firstName</key>
+		<string>Mary</string>
+		<key>lastName</key>
+		<string>Jackson</string>
+		<key>email</key>
+		<string>MaryHJackson@teleworm.us</string>
+		<key>bloodType</key>
+		<string>O+</string>
+	</dict>
+	<dict>
+		<key>firstName</key>
+		<string>Steve</string>
+		<key>lastName</key>
+		<string>Trowbridge</string>
+		<key>email</key>
+		<string>SteveKTrowbridge@rhyta.com</string>
+		<key>bloodType</key>
+		<string>A+</string>
+	</dict>
+</array>
+</plist>

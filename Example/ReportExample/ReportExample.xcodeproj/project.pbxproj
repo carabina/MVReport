@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6168B991997203E00548D95 /* MVTPersonSectionElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C6168B981997203E00548D95 /* MVTPersonSectionElement.m */; };
+		C66CF030199671EF00E444A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66CF02F199671EF00E444A5 /* Foundation.framework */; };
+		C66CF032199671EF00E444A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66CF031199671EF00E444A5 /* CoreGraphics.framework */; };
+		C66CF034199671EF00E444A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66CF033199671EF00E444A5 /* UIKit.framework */; };
+		C66CF0761996733400E444A5 /* MVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66CF06B1996733400E444A5 /* MVTAppDelegate.m */; };
+		C66CF0781996733400E444A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66CF06E1996733400E444A5 /* Images.xcassets */; };
+		C66CF07A1996733400E444A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C66CF0711996733400E444A5 /* main.m */; };
+		C66CF07C199673D100E444A5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66CF07E199673D100E444A5 /* Main_iPad.storyboard */; };
+		C6A659C61996ED39005A1660 /* MVTPDFReportPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A659C51996ED39005A1660 /* MVTPDFReportPreviewController.m */; };
+		C6A659C91996F203005A1660 /* MVTSampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A659C81996F203005A1660 /* MVTSampleListViewController.m */; };
+		C6A659CC1996F540005A1660 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A659CE1996F540005A1660 /* Localizable.strings */; };
+		C6A659D21996F9CD005A1660 /* libMVReport-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A659D11996F9CD005A1660 /* libMVReport-iOS.a */; };
+		C6B0E705199703AC0052719D /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6B0E704199703AC0052719D /* People.plist */; };
+		C6B0E708199706470052719D /* MVTBloodTypeSectionElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0E707199706470052719D /* MVTBloodTypeSectionElement.m */; };
+		C6B0E70B199714510052719D /* MVTLoremPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0E70A199714510052719D /* MVTLoremPageRenderer.m */; };
+		C6FC8E8B1997C045005BD7E0 /* MVTLoermIpsumSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC8E8A1997C045005BD7E0 /* MVTLoermIpsumSection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6168B971997203E00548D95 /* MVTPersonSectionElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTPersonSectionElement.h; sourceTree = "<group>"; };
+		C6168B981997203E00548D95 /* MVTPersonSectionElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTPersonSectionElement.m; sourceTree = "<group>"; };
+		C66CF02C199671EF00E444A5 /* ReportExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReportExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66CF02F199671EF00E444A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C66CF031199671EF00E444A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C66CF033199671EF00E444A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C66CF051199671F000E444A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C66CF06A1996733400E444A5 /* MVTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTAppDelegate.h; sourceTree = "<group>"; };
+		C66CF06B1996733400E444A5 /* MVTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTAppDelegate.m; sourceTree = "<group>"; };
+		C66CF06E1996733400E444A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C66CF0711996733400E444A5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C66CF0721996733400E444A5 /* ReportExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ReportExample-Info.plist"; sourceTree = "<group>"; };
+		C66CF0731996733400E444A5 /* ReportExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReportExample-Prefix.pch"; sourceTree = "<group>"; };
+		C66CF07D199673D100E444A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C6A659C41996ED39005A1660 /* MVTPDFReportPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTPDFReportPreviewController.h; sourceTree = "<group>"; };
+		C6A659C51996ED39005A1660 /* MVTPDFReportPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTPDFReportPreviewController.m; sourceTree = "<group>"; };
+		C6A659C71996F203005A1660 /* MVTSampleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTSampleListViewController.h; sourceTree = "<group>"; };
+		C6A659C81996F203005A1660 /* MVTSampleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTSampleListViewController.m; sourceTree = "<group>"; };
+		C6A659CD1996F540005A1660 /* Base */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6A659D11996F9CD005A1660 /* libMVReport-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMVReport-iOS.a"; path = "../../build/Debug-iphoneos/libMVReport-iOS.a"; sourceTree = "<group>"; };
+		C6B0E704199703AC0052719D /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = People.plist; sourceTree = "<group>"; };
+		C6B0E706199706470052719D /* MVTBloodTypeSectionElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTBloodTypeSectionElement.h; sourceTree = "<group>"; };
+		C6B0E707199706470052719D /* MVTBloodTypeSectionElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTBloodTypeSectionElement.m; sourceTree = "<group>"; };
+		C6B0E709199714510052719D /* MVTLoremPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTLoremPageRenderer.h; sourceTree = "<group>"; };
+		C6B0E70A199714510052719D /* MVTLoremPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTLoremPageRenderer.m; sourceTree = "<group>"; };
+		C6FC8E891997C045005BD7E0 /* MVTLoermIpsumSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVTLoermIpsumSection.h; sourceTree = "<group>"; };
+		C6FC8E8A1997C045005BD7E0 /* MVTLoermIpsumSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVTLoermIpsumSection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66CF029199671EF00E444A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A659D21996F9CD005A1660 /* libMVReport-iOS.a in Frameworks */,
+				C66CF032199671EF00E444A5 /* CoreGraphics.framework in Frameworks */,
+				C66CF034199671EF00E444A5 /* UIKit.framework in Frameworks */,
+				C66CF030199671EF00E444A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66CF023199671EF00E444A5 = {
+			isa = PBXGroup;
+			children = (
+				C66CF0671996733400E444A5 /* Classes */,
+				C66CF06E1996733400E444A5 /* Images.xcassets */,
+				C66CF06F1996733400E444A5 /* Support */,
+				C66CF02E199671EF00E444A5 /* Frameworks */,
+				C66CF02D199671EF00E444A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C66CF02D199671EF00E444A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66CF02C199671EF00E444A5 /* ReportExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C66CF02E199671EF00E444A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A659D11996F9CD005A1660 /* libMVReport-iOS.a */,
+				C66CF02F199671EF00E444A5 /* Foundation.framework */,
+				C66CF031199671EF00E444A5 /* CoreGraphics.framework */,
+				C66CF033199671EF00E444A5 /* UIKit.framework */,
+				C66CF051199671F000E444A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C66CF0671996733400E444A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C66CF07E199673D100E444A5 /* Main_iPad.storyboard */,
+				C66CF06A1996733400E444A5 /* MVTAppDelegate.h */,
+				C66CF06B1996733400E444A5 /* MVTAppDelegate.m */,
+				C6A659C71996F203005A1660 /* MVTSampleListViewController.h */,
+				C6A659C81996F203005A1660 /* MVTSampleListViewController.m */,
+				C6B0E706199706470052719D /* MVTBloodTypeSectionElement.h */,
+				C6B0E707199706470052719D /* MVTBloodTypeSectionElement.m */,
+				C6168B971997203E00548D95 /* MVTPersonSectionElement.h */,
+				C6168B981997203E00548D95 /* MVTPersonSectionElement.m */,
+				C6FC8E891997C045005BD7E0 /* MVTLoermIpsumSection.h */,
+				C6FC8E8A1997C045005BD7E0 /* MVTLoermIpsumSection.m */,
+				C6B0E709199714510052719D /* MVTLoremPageRenderer.h */,
+				C6B0E70A199714510052719D /* MVTLoremPageRenderer.m */,
+				C6A659C41996ED39005A1660 /* MVTPDFReportPreviewController.h */,
+				C6A659C51996ED39005A1660 /* MVTPDFReportPreviewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C66CF06F1996733400E444A5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C66CF0711996733400E444A5 /* main.m */,
+				C66CF0721996733400E444A5 /* ReportExample-Info.plist */,
+				C66CF0731996733400E444A5 /* ReportExample-Prefix.pch */,
+				C6A659CE1996F540005A1660 /* Localizable.strings */,
+				C6B0E704199703AC0052719D /* People.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66CF02B199671EF00E444A5 /* ReportExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66CF061199671F000E444A5 /* Build configuration list for PBXNativeTarget "ReportExample" */;
+			buildPhases = (
+				C66CF028199671EF00E444A5 /* Sources */,
+				C66CF029199671EF00E444A5 /* Frameworks */,
+				C66CF02A199671EF00E444A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReportExample;
+			productName = ReportExample;
+			productReference = C66CF02C199671EF00E444A5 /* ReportExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C66CF024199671EF00E444A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MVT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Moroverse;
+				TargetAttributes = {
+					C66CF02B199671EF00E444A5 = {
+						DevelopmentTeam = 6U7PNY7JC8;
+					};
+				};
+			};
+			buildConfigurationList = C66CF027199671EF00E444A5 /* Build configuration list for PBXProject "ReportExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C66CF023199671EF00E444A5;
+			productRefGroup = C66CF02D199671EF00E444A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66CF02B199671EF00E444A5 /* ReportExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66CF02A199671EF00E444A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66CF0781996733400E444A5 /* Images.xcassets in Resources */,
+				C6A659CC1996F540005A1660 /* Localizable.strings in Resources */,
+				C66CF07C199673D100E444A5 /* Main_iPad.storyboard in Resources */,
+				C6B0E705199703AC0052719D /* People.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66CF028199671EF00E444A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6168B991997203E00548D95 /* MVTPersonSectionElement.m in Sources */,
+				C6B0E70B199714510052719D /* MVTLoremPageRenderer.m in Sources */,
+				C6FC8E8B1997C045005BD7E0 /* MVTLoermIpsumSection.m in Sources */,
+				C6A659C91996F203005A1660 /* MVTSampleListViewController.m in Sources */,
+				C6B0E708199706470052719D /* MVTBloodTypeSectionElement.m in Sources */,
+				C6A659C61996ED39005A1660 /* MVTPDFReportPreviewController.m in Sources */,
+				C66CF07A1996733400E444A5 /* main.m in Sources */,
+				C66CF0761996733400E444A5 /* MVTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C66CF07E199673D100E444A5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66CF07D199673D100E444A5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C6A659CE1996F540005A1660 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A659CD1996F540005A1660 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C66CF05F199671F000E444A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C66CF060199671F000E444A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C66CF062199671F000E444A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/ReportExample-Prefix.pch";
+				INFOPLIST_FILE = "Support/ReportExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/danielmoro/Developer/Moroverse/Frameworks/MVReport/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C66CF063199671F000E444A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/ReportExample-Prefix.pch";
+				INFOPLIST_FILE = "Support/ReportExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/danielmoro/Developer/Moroverse/Frameworks/MVReport/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66CF027199671EF00E444A5 /* Build configuration list for PBXProject "ReportExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66CF05F199671F000E444A5 /* Debug */,
+				C66CF060199671F000E444A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66CF061199671F000E444A5 /* Build configuration list for PBXNativeTarget "ReportExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66CF062199671F000E444A5 /* Debug */,
+				C66CF063199671F000E444A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C66CF024199671EF00E444A5 /* Project object */;
+}

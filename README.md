@@ -1,4 +1,4 @@
 MVReport
 ========
 
-Simple Objective-C framework for Report generation on iOS
+Lightweight Objective-C framework for report generation on iOS
