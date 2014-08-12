@@ -6,3 +6,9 @@
 #
 # Pods/
 
+
+*.xcuserstate
+
+*.xcbkptlist
+*.xccheckout
+MVReport.xcworkspace/xcuserdata
