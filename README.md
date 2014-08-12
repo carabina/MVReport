@@ -11,7 +11,7 @@ he will need to abandon this approach and use c frameworks to generate PDF repor
 I tried to use the same paradigm, formatter and page renderer objects, and same methods where it make sense. But, I also extended functionality by adding objects called report sections that can be used to generate
 repeatable content (think of table views), and dynamic chaining of formatters through the document.
 
-I marked this release as 0.1 because it requires more testing for some edge cases, and there are still parts of code I'm not satisfied how it should look. I can imagine fairly complex cases resolved with existing classes and methods, but I didn't tried
+I marked this release as 0.1 because it requires more testing for some edge cases, and there are some parts of code I'm not satisfied how it looks now. I can imagine fairly complex cases resolved with existing classes and methods, but I didn't tried
 enough of them to call release 1.0.
 
 ## How To Get Started
@@ -38,7 +38,7 @@ MVReport 0.1 and higher requires Xcode 5, targeting either iOS 7.0 and above. MV
 
 ### Simple Page Elements
 If you wish only to generate document with portion of text, or simple repeatable content you can use this approach. 
-Create concrete instance of `MVReport` depending of type report type you wish to generate (currently there is only `MVPDFReport` available), and initialize it with your `MVReportPageInfo` object. Create concrete instance of `MVReportPageElement` and initialize it with your plain text or HTML text that should go into report. Attach `MVReportPageElement` instance to pageElement property of `MVReport` instance and generate report.
+Create concrete instance of `MVReport` depending on report type you wish to generate (currently there is only `MVPDFReport` available), and initialize it with your `MVReportPageInfo` object. Create concrete instance of `MVReportPageElement` and initialize it with your plain text or HTML text. Attach `MVReportPageElement` instance to pageElement property of `MVReport` instance and generate report.
 ```objective-c
 MVReport *report = [[MVPDFReport alloc] initWithPageInfo:myPageInfo];
 MVReportPageElement *pageElement = [[MVReportSimpleTextFormatter alloc] initWithText:mySimpleText];
@@ -47,7 +47,7 @@ NSData *data = [report generateReport];
 ```
 Result is a PDF document that can be written to file, send via email, or send to printer...
 
-### Report Section
+#### Report Section
 If you need to put repeatable content in report you may use `MVReportSection` class. You don't have to subclass `MVReportSection` if there is no need for section heder, footer or some custom drawing not related to repeatable content.
 You will need, however to create custom subclass of `MVReportSectionElement`, object that will draw one row in a section. You can think of it as a table row cell. In your subclass you will override method that returns content rect (height of the row in other words), and method that actually draws something:
 ```objective-c
@@ -95,10 +95,10 @@ report.pageElement = section;
 
 NSData *data = [report generateReport];
 ```
-## Page Renderer
+### Page Renderer
 
 TBD
 
-### Combining Page Elements in Page Renderer
+#### Combining Page Elements in Page Renderer
 
 TBD
