@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'MVReport'
-  s.version      = '0.1.0'
+  s.version      = '0.1.2'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/Moroverse/MVReport'
   s.authors      = { 'Moroverse' => 'moroverse@gmail.com' }

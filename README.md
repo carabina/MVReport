@@ -27,7 +27,7 @@ enough of them to call release 1.0.
 
 ```ruby
 platform :ios, '7.0'
-pod "MVReport", "~> 0.1.1"
+pod "MVReport", "~> 0.1.2"
 ```
 
 ## Requirements
