@@ -1,0 +1,1 @@
+PODS_MVREPORT_MVREPORT_OTHER_LDFLAGS = -framework CoreGraphics -framework CoreText -framework UIKit
